@@ -1,0 +1,35 @@
+{
+  "name": "build-haxe",
+  "version": "1.0.0",
+  "description": "Haxe build provider for AtomBuild",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "main": "lib/build-haxe.js",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "homepage": "https://github.com/Qard/atom-build-haxe#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qard/atom-build-haxe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qard/atom-build-haxe/issues"
+  },
+  "keywords": [
+    "haxe",
+    "build",
+    "atombuild"
+  ],
+  "providedServices": {
+    "builder": {
+      "description": "Runs haxe targets",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "xml2json": "^0.10.0"
+  }
+}
