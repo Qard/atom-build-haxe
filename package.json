@@ -1,6 +1,6 @@
 {
   "name": "build-haxe",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Haxe build provider for AtomBuild",
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "main": "lib/build-haxe.js",
